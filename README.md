@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.rawgit.com/gmansillo/saintoftheday/master/asset/logo.svg" width="54" />
+  <img src="https://cdn.rawgit.com/gmansillo/saintoftheday/master/asset/logo.svg#2" width="48" />
 
   <h3 align="center">Saint Of The Day</h3>
 
