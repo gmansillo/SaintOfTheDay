@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>Saint Of The Day</name>
+    <author>Giovanni Mansillo</author>
+    <version>1.0.0</version>
+    <files>
+        <filename>mod_saintoftheday.xml</filename>
+        <filename module="mod_saintoftheday">mod_saintoftheday.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <folder>tmpl</folder>
+        <folder>lang</folder>
+    </files>
+    <config> 
+        <field
+            name="show_title"
+            type="radio"
+            class="radio btn-group btn-group-yesno"
+            default="1"
+            label="MOD_SAINTOFTHEDAY_SHOW_TITLE_LABEL"
+            description="MOD_SAINTOFTHEDAY_SHOW_TITLE_DESC">
+            <option
+                value="1">JSHOW</option>
+            <option
+                value="0">JHIDE</option>
+        </field>
+        <field
+            name="show_list"
+            type="radio"
+            class="radio btn-group btn-group-yesno"
+            default="1"
+            label="MOD_SAINTOFTHEDAY_SHOW_LIST_LABEL"
+            description="MOD_SAINTOFTHEDAY_SHOW_LIST_DESC">
+            <option
+                value="1">JSHOW</option>
+            <option
+                value="0">JHIDE</option>
+        </field>
+        
+        <!--         *'      - « saint » : to get the saint of the day (with link to life)
+     *'      - « liturgic_t » : to get the liturgic title -->
+    </config>
+   
+</extension>
