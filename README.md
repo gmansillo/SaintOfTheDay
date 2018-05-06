@@ -91,8 +91,6 @@
   <p align="center">
     Description
     <br>
-    <a href="https://github.com/gmansillo/saintoftheday/wiki"><strong>Browse the Documentation »</strong></a>
-    <br>
     <br>
     <a href="https://github.com/gmansillo/saintoftheday/issues/new">Report a bug</a>
     ·
