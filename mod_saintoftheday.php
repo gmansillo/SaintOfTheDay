@@ -1,20 +1,26 @@
 <?php
 /**
- * @package    Saint Of The Day
- * @license    GNU/GPL, see LICENSE.php
- * @link       https:// github.com/gmansillo/saintoftheday
- */
+ * @package Module Saint Of The Day for Joomla!
+ * @author Giovanni Mansillo
+ * @license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
+ * @link https:// github.com/gmansillo/saintoftheday
+ *
+**/
 
 // No direct access
 defined('_JEXEC') or die;
 
+ jimport( 'joomla.application.module.helper' ); 
+
 // Include the syndicate functions only once
 require_once dirname(__FILE__) . '/helper.php';
 
-require JModuleHelper::getLayoutPath('mod_saintoftheday');
+$module = JModuleHelper::getModule('mod_saintoftheday');
+$lang   = JFactory::getLanguage()->getTag();
+$params = new JRegistry();
+$params->loadString($module->params);
 
-$lang   = ModSaintOfTheDayHelper::getAPIFormattedLanguage();
-$params = JFactory::getParams('mod_saintoftheday');
-        
-if($params->get('show_title')) { $sod_title = ModSaintOfTheDayHelper::getDataFromAPI('liturgic_t', $lang); }
-if($params->get('show_list')) { $sod_list = ModSaintOfTheDayHelper::getDataFromAPI('saint', $lang); }
+$sod_title  = ModSaintOfTheDayHelper::getDataFromAPI('liturgic_t', $lang); 
+$sod_list   = ModSaintOfTheDayHelper::getDataFromAPI('saint', $lang); 
+
+require_once JModuleHelper::getLayoutPath('mod_saintoftheday');
