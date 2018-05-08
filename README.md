@@ -29,14 +29,14 @@
 
 ## Feedback
 
-Your Feedback is very important! If you are satisfied with Sain Of The Day and if you want to help the project growing up, please leave your rating on the <a href="https://extensions.joomla.org/extension/saint-of-the-day/">Joomla! Extension Directory</a>! :heart:
+Your Feedback is very important! If you are satisfied with Saint Of The Day and if you want to help the project growing up, please leave your rating on the <a href="https://extensions.joomla.org/extension/saint-of-the-day/">Joomla! Extension Directory</a>! :heart:
 
 
 ## Software requirements
 
 ![Joomla! 3.1+](https://img.shields.io/badge/Joomla!-3.1+-blue.svg) ![PHP 5.4+](https://img.shields.io/badge/PHP-5.4+-brightgreen.svg)
 
-Simple File Manager is compatible with Joomla 3.1+ and it requires a PHP 5.4+ engine to run. curl or fopen() *must* be enabled.
+Saint Of The Day is compatible with Joomla 3.1+ and requires a PHP 5.4+ engine to run. At least one of curl or fopen() functions *must* be enabled or the module won't be able to load data.
 
 
 ## Installation
