@@ -1,0 +1,14 @@
+<updates>
+    <update>
+        <name>Saint Of The Day</name>
+        <description/>
+        <element>mod_saintoftheday</element>
+        <type>module</type>
+        <version>1.0</version>
+        <downloads>
+            <downloadurl type="full" format="zip">https://github.com/gmansillo/saintoftheday/releases/download/1/mod_saintoftheday-1.0.zip</downloadurl>
+        </downloads>
+        <targetplatform name="joomla" version="3"/>
+        <maintainer>Giovanni Mansillo</maintainer>
+    </update>
+</updates>
